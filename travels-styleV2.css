@@ -1,0 +1,512 @@
+    @font-face {
+    font-family: lemonadeStand;
+    src: url("LemonadeStand-J0Ln.ttf");
+    }
+      
+*
+    {
+    font-family: lemonadeStand, sans-serif;
+    color: black;
+    
+   
+    }
+h1, h2, h3{
+    background-color: antiquewhite;
+    border: 1px solid grey;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+} 
+
+.background{
+    background-image: url('./images/BackgroundV5.jpg');
+
+}
+
+/****************** this is for the landing/Home page*************************************************************************************************************************/
+
+#landingPageHeading{
+    text-align: center;
+    margin: auto;
+    width: 1320px;
+    font-size: 70px;
+      
+}
+#landingPageBackgroundImage{
+    position: absolute;
+    width: 100%;
+    min-width: 1300px;
+    top: 0px;
+    z-index: -1;
+    opacity: 70%;
+
+}
+
+.scribbles{
+    position: absolute;
+    z-index: -1;
+    filter: opacity(65%);
+    width: 40px;
+}
+
+#scribble1{
+    left:40px;
+    top: 20px;
+    transform: rotate(3deg);
+}
+#scribble2{
+    left:1450px;
+    top: 25px;
+    transform: rotate(3deg);
+}
+#scribble3{
+    left:350px;
+    top: 200px;
+    transform: rotate(3deg);
+}
+#scribble4{
+    left:1150px;
+    top: 300px;
+    transform: rotate(3deg);
+}
+#scribble5{
+    left:690px;
+    top: 700px;
+    transform: rotate(3deg);
+}
+
+.landingPageImageWindowPortait{
+    position: absolute;
+    top: 380px;
+    transform: rotate(5deg);
+    width: 30%;
+    left:250px;
+}
+#portraitImage{
+    width: 70%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+
+}
+.landingPageImageWindowLandscape{
+    position: absolute;
+    top: 450px;
+    transform: rotate(-4deg);
+    width: 28%;
+    right:180px;
+}
+#landscapeImage{
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+
+}
+#landscapeImage2{
+    position: absolute;
+    width: 35%;
+    left: 450px;
+    z-index: -1;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+
+}
+
+
+.yearButtonsLeft{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    width: 100px;
+    z-index: 1;
+    font-size: 50px;
+    border-style: 1px solid black   ;
+
+
+}
+.yearButtonsRight{
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    width: 100px;
+    z-index: 1;
+    font-size: 50px;
+
+   }
+.yearButtons:hover{
+    background-color: blanchedalmond;
+    font-weight: bolder;
+
+}
+
+.audioTrack{
+    position: absolute;
+    right: 10%;
+
+}
+
+/****************** this is for the Yearly destination pages****************************************************************************************************************/
+
+.yearlyDestinationContent {
+    margin: auto;
+    width: 80%;
+    min-width: 1000px;
+    background-image: url("./images/BackgroundV6.jpg");
+    border: 5px groove rgb(97, 76, 76);
+ 
+
+}
+.backToHomeButton{
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    width: 70px;
+
+}
+.dateHeading{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 190px;
+    margin-bottom: 50px;
+
+}
+
+/** Left Destinations **/
+.leftSectionWindow{
+
+    position: relative;
+    width: 100%;
+    height: 260px;
+    left: 30px;
+    top: 0px;
+    
+
+}
+.tripPreviewImageLeft{
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    transform: rotate(1deg);
+    position: relative;
+    width: 400px;
+    height: 100%;
+    float: left;
+
+}
+.dateLeft{
+    position: absolute;
+    font-size: 20px;
+    top: -10px;
+    left: 415px;
+
+}
+.placeNameLeft{
+    position: absolute;
+    text-align: center;
+    top: 45px;
+    left: 415px;
+    width: 220px;
+    height: 40px;
+    z-index: 2;
+}
+.discriptionLeft{
+    position: absolute;
+    font-size: 27px;
+    top: 100px;
+    left: 415px;
+    width: 700px;
+
+}
+.yearlyDestinationDecorationLeft{
+    position: absolute;
+    transform: rotate(5deg);
+    top: 100px;
+    left: 1250px;
+    width: 90px;
+    height: 90px;
+
+}
+/** Right Destinations **/
+.rightSectionWindow{
+
+    position: relative;
+    width: 100%;
+    height: 260px;
+    Right: 0px;
+    top: 0px;
+}
+.tripPreviewImageRight{
+    position: relative;
+    transform: rotate(-2deg);
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    width: 400px;
+    height: 100%;
+
+    float: right;
+}
+.dateRight{
+    position: absolute;
+    font-size: 20px;
+    top: -10px;
+    right: 415px;
+
+}
+.placeNameRight{
+    position: absolute;
+    text-align: center;
+    top: 45px;
+    right: 415px;
+    width: 220px;
+    height: 40px;
+    z-index: 2;
+}
+.discriptionRight{
+    position: absolute;
+    font-size: 27px;
+    top: 100px;
+    right: 415px;
+    width: 700px;
+    background-image: url('./images/BackgroundV1.jpg');
+
+}
+.yearlyDestinationDecorationRight{
+    position: absolute;
+    transform: rotate(5deg);
+    top: 100px;
+    right: 1250px;
+    width: 90px;
+    height: 90px;
+
+}
+
+/*******************this is for the destination pages*************************************************************************************************************************/
+.destinationPage{
+    background-color: bisque;
+
+}
+.pageNavButtons p   
+{   
+
+    text-align: center;
+    width: 100px;
+    background-color: rgb(169,135,94);
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    z-index: 2;
+   
+}
+#index
+{
+    position: relative;
+    left: 98%;
+    top: -25px;
+    width: 20px;
+    font-size: 30px;
+    z-index: 1;
+    
+}
+
+/********* decoration styling *********/
+
+    .decorations{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        z-index: -1;
+        opacity: 50%;
+
+    }
+
+    #decoration1{
+        top: 5px;
+        left: 280px;
+
+    }
+    #decoration2{
+        top: 5px;
+        right: 350px;
+    }
+    #decoration3{
+        top: 350px;
+        right: 10px;
+    }
+    #decoration4{
+        top: 260px;
+        left: 10px;
+    }
+    #decoration5{
+        top: 850px;
+        right: 23px;
+    }
+    #decoration6{
+        top: 890px;
+        left: 27px;
+    }
+/********* Previous image styling *********/
+
+.previousImagesWindow
+{
+    position: absolute;
+    top: 480px;
+    left: -70px;
+ 
+    
+    background-color: rgb(169,135,94);
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    position: absolute;
+
+    width: 70px;
+    height: 160px;
+    z-index: 1;
+}
+.previousImageLabel
+{
+    position: relative;
+    left: 5px;    
+    font-size: 20px;
+    transform: rotate(-1deg);
+}
+
+#previousImages
+{
+    position: relative;
+    width: 100px;
+    height: 70px;
+   
+    bottom: 0px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);  
+    z-index: 2 ; 
+}
+#previousImages:hover
+{
+    border: 1px solid black ;
+    box-shadow: 0 0 20px rgba(10,10,10,10.60); 
+    z-index: 3;  
+}
+
+
+/********* Main image styling *********/
+
+#bigImages 
+{
+    position: relative;
+    max-width: 100%;
+    top: -105px;
+    z-index: 1;
+
+    /*max-height: 780px;*/
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    margin-bottom: 0px;
+}
+.bigImageWindow
+{
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 0%;
+    max-height: 950px;
+    min-width: 1000px;
+    margin-bottom: 0px;
+}
+.locationTitle
+{
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    background-color: rgb(169,135,94);
+    font-size: 40px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+/** Slideshow controls **/
+
+#slideShowWindow{
+    text-align: center;
+    background-color: rgb(169,135,94);
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    position: absolute;
+    top: 80px;
+    left: 94.5%;
+    width: 70px;
+    height: 160px;
+    z-index: -1;
+
+}
+#playButton{
+    right: 0px;
+    top: 10px;
+    width: 70px;
+}
+#timerText{
+    position: absolute;
+    top: 60px;
+    left: 18px;
+    display: none;
+}
+
+#fasterButton{
+    top: 110px;
+    left: 0px;
+    height: 30px;
+    width: 40px;
+    display: none;
+}
+#slowerButton{
+    top: 105px;
+    left: 36px;
+    height: 40px;
+    width: 36px;
+    display: none;
+
+}
+#stopButton{
+    top: 2px;
+    left: 5px;
+    display: none;
+    width: 65px;
+}
+
+.autoPlayButtons{
+    position: absolute;
+    z-index: -1;
+    filter: opacity(65%);
+  
+}
+.autoPlayButtons:hover{
+    z-index: 3;
+    transform: scale(1.2);
+   
+}
+
+/********* Next image styling *********/
+
+.nextImagesWindow
+{
+    top: 520px;
+    right: -70px;
+    position: absolute;
+
+    background-color: rgb(169,135,94);
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+
+    width: 70px;
+    height: 160px;
+    z-index: 1;
+}
+.nextImageLabel
+{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+}
+
+#nextImages
+{
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    width: 120px;
+    right: 0px;
+    height: 80px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);   
+}
+#nextImages:hover
+{
+    border: 1px solid black ;
+    box-shadow: 0 0 20px rgba(10,10,10,10.60);  
+    z-index: 3;
+}

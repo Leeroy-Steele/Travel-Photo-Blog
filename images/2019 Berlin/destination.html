@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Steele's On Tour 2013 - 2019</title>
+        <link href="../../travels-styleV2.css" rel="stylesheet">
+        <script src="../../TravelsJavascriptV2.js"></script>
+
+    </head>
+    <body class="destinationPage" onload="resetIndex(13)">
+
+    <!–– This is for the page back button  ––>
+            
+        <a class="pageNavButtons" href="../../2019destinations.html"><p >Back to 2019</p> </a>
+
+    <!–– This is for the main images, forward, back buttons and title ––>
+          
+        <div class="bigImageWindow">
+
+            <!-- Previous Image button -->
+            <div onclick="destinationChangeImage(false, false)" class="previousImagesWindow">
+                <p class="previousImageLabel">Previous</p>
+                <img id="previousImages" src="a (10).jpg" alt="No image" > 
+                 
+            </div>  
+
+            <!-- Title and image index number -->
+            <p class="locationTitle"> Berlin 2019 </p>
+            <p id="index">1</p>
+
+            <!-- Next Image button -->
+            <div onclick="destinationChangeImage(true, false)" class="nextImagesWindow">
+                <p class="nextImageLabel">Next</p>
+                <img id="nextImages" src="a (2).jpg" alt="No image">
+
+            </div>
+            
+            <!-- Main Image -->
+            <img id="bigImages" src="a (1).jpg" alt="No image" >
+            
+        </div>
+
+    <!–– This is for the auto slide show buttons  ––>
+        <div id="slideShowWindow">
+            <img onclick="autoAdvanceStart()" id="playButton" class="autoPlayButtons" src="../startButton.png" alt="no image">
+            <img onclick="autoAdvanceStop()" id="stopButton" class="autoPlayButtons" src="../stopButton.png" alt="no image"> 
+            <p id="timerText"> Speed </p>
+            <img onclick="destinationPageSlideShowTimerFaster()" id="fasterButton" class="autoPlayButtons" src="../fasterButton.png" alt="no image">
+            <img onclick="destinationPageSlideShowTimerSlower()" id="slowerButton" class="autoPlayButtons" src="../slowerButton.png" alt="no image">
+        </div>
+
+    <!–– This is for all page decoration stickers  ––>
+        <div>
+        <img class="decorations" id="decoration1" src="../5.png">
+        <img class="decorations" id="decoration2" src="../6.png">
+        <img class="decorations" id="decoration3" src="../4.png">
+        <img class="decorations" id="decoration4" src="../9.png">
+        <img class="decorations" id="decoration5" src="../2.png">
+        <img class="decorations" id="decoration6" src="../7.png">
+        </div>
+    </body>
+</html>
+
